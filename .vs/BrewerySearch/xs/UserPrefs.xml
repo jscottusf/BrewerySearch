@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{4138660D-6F0B-4B6E-B1F4-2DE99B57B87C}|Default">
+  <MonoDevelop.Ide.ItemProperties.BrewerySearch PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="BrewerySearch/Profiles/BreweriesProfile.cs">
+    <Files>
+      <File FileName="BrewerySearch/Controllers/BreweriesController.cs" Line="70" Column="49" />
+      <File FileName="BrewerySearch/Data/SqlBreweryRepo.cs" Line="1" Column="1" />
+      <File FileName="BrewerySearch/Data/IBreweryRepo.cs" Line="1" Column="1" />
+      <File FileName="BrewerySearch/Profiles/BreweriesProfile.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BrewerySearch" expanded="True">
+            <Node name="BrewerySearch" expanded="True">
+              <Node name="Data" expanded="True" />
+              <Node name="Profiles" expanded="True">
+                <Node name="BreweriesProfile.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
