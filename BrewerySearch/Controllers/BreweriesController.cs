@@ -66,7 +66,7 @@ namespace BrewerySearch.Controllers
             return NoContent();
         }
 
-        [HttpPatch{"{id}"]
+        [HttpPatch("{id}")]
         public ActionResult PartialBreweryUpdate(int id, JsonPatchDocument<BreweryUpdateDto> patchDoc)
         {
             var breweryModelFromRepo = _repository.GetBreweryById(id);
@@ -83,6 +83,19 @@ namespace BrewerySearch.Controllers
 
             _mapper.Map(breweryToPatch, breweryModelFromRepo);
             _repository.UpdateBrewery(breweryModelFromRepo);
+            _repository.SaveChanges();
+            return NoContent();
+        }
+
+        [HttpDelete("{id}")]
+        public ActionResult DeleteBrewery(int id)
+        {
+            var breweryModelFromRepo = _repository.GetBreweryById(id);
+            if (breweryModelFromRepo == null)
+            {
+                return NotFound();
+            }
+            _repository.DeleteBrewery(breweryModelFromRepo);
             _repository.SaveChanges();
             return NoContent();
         }
