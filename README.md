@@ -21,10 +21,13 @@ Deployed at: https://brewerysearch.azurewebsites.net/
 
 - C#
 - .Net Core
+- AutoMapper.Extensions.Microsoft.DependencyInjections
+- Microsoft.AspNetCore.JsonPatch
 - Microsoft.AspNetCore.Mvc.NewtonSoftJson
 - Microsoft.AspNetCore.SpaServices.Extensions
+- Microsoft.EntityFrameworkCore
+- Microsoft.EntityFrameworkCore.Design
 - ReactJS
-- JSX
 - JavaScript
 - Bootstrap
 - Azure for deployment
