@@ -7,15 +7,15 @@ Deployed at: https://brewerysearch.azurewebsites.net/
 
 # Brewery Search Page
 
-![Brewery Search Page](./BrewerySeach/ClientApp/public/search.png)
+![Brewery Search Page](./BrewerySearch/ClientApp/public/search.png)
 
 # Brewery Info and Beer List
 
-![Brewery Info and Beer List](./BrewerySeach/ClientApp/public/info.png)
+![Brewery Info and Beer List](./BrewerySearch/ClientApp/public/info.png)
 
 # Saved Breweries
 
-![Saved Breweries](./BrewerySeach/ClientApp/public/saved.png)
+![Saved Breweries](./BrewerySearch/ClientApp/public/saved.png)
 
 ## Technologies used
 
