@@ -33,6 +33,7 @@
   <ItemGroup>
     <Folder Include="ClientApp\src\utils\" />
     <Folder Include="ClientApp\src\images\" />
+    <Folder Include="Migrations\" />
   </ItemGroup>
   <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">
     <!-- Ensure Node.js is installed -->

@@ -17,6 +17,46 @@ code {
     max-height: 50px;
 }
 
+#breweryPageImg {
+    min-height: 150px;
+}
+
 #main-container {
     padding-bottom: 300px
+}
+
+#save {
+    z-index: 2;
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 18px;
+}
+
+#red, #notSaved {
+    font-size: 30px;
+    margin: 1px;
+}
+
+#red {
+    color: red;
+}
+
+#red:hover,
+#notSaved:hover {
+    cursor: pointer;
+    font-size: 32px;
+    margin: 0;
+}
+
+#red:hover, #redSearch:hover {
+    color: black;
+}
+
+#notSaved:hover, #notSavedSearch:hover, #redSearch {
+    color: red;
+}
+
+.fa-star:hover, #x:hover, #notSavedSearch:hover, #redSearch {
+    cursor: pointer;
 }

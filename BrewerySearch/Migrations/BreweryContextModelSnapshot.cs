@@ -25,6 +25,9 @@ namespace BrewerySearch.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+                    b.Property<string>("Address")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("BreweryName")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -32,17 +35,17 @@ namespace BrewerySearch.Migrations
                     b.Property<string>("City")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("State")
+                    b.Property<string>("Logo")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Street")
+                    b.Property<int>("Rating")
+                        .HasColumnType("int");
+
+                    b.Property<string>("State")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Url")
                         .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("Zip")
-                        .HasColumnType("int");
 
                     b.HasKey("Id");
 
