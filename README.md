@@ -1,7 +1,7 @@
 # Brewery Search SQL
 
 Brewery Search is a full stack web application which allows users to search, save, and rate breweries. Brewery Search is powered
-via ReactJS with a C# RESTful API backed up by SQL database.
+via ReactJS with a C# RESTful API backed up by an SQL database (MSSQL).
 
 Deployed at: https://brewerysearch.azurewebsites.net/
 
